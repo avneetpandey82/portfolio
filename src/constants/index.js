@@ -237,7 +237,7 @@ const projects = [
   },
   {
     id: "my_inspection_center",
-    name: "My Inspection Center",
+    name: "Inspection Center",
     description: `We provide you a tool to create a new House as well as new Boat Inspection for you. Register with us to look into all Inspections that are requested by our Users and can place your bids there.`,
     tags: [
       {
