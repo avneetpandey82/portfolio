@@ -65,8 +65,8 @@ const Navbar = () => {
                 />
               </div>
               <ul
-                className="list-none flex flex-col -gap-[1rem] 
-                items-start justify-end mt-[10rem] -ml-[35px]">
+                className="list-none flex flex-col 
+                items-center justify-end mt-[10rem] ">
                 {navLinks.map((nav) => (
                   <li
                     id={nav.id}
@@ -79,7 +79,7 @@ const Navbar = () => {
                       setToggle(!toggle);
                       setActive(nav.title);
                     }}>
-                    <a href={`#${nav.id}`}>{nav.title}</a>
+                    <a href={`#${nav.id}`} className=' text-[44px] '>{nav.title}</a>
                   </li>
                 ))}
               </ul>

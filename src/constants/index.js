@@ -26,6 +26,7 @@ import {
   freelancing,
   loyalistCollege,
   dce,
+  cancer_copilot,
 } from "../assets";
 
 export const navLinks = [
@@ -129,7 +130,7 @@ const experiences = [
     company_name: "Dedicated Client",
     icon: freelancing,
     iconBg: "#333333",
-    date: "May 2024 - Present",
+    date: "May 2024 - Mar 2025",
   },
   {
     title: "Associate Software Developer L-2",
@@ -162,6 +163,29 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    id: "cancer-copilot.ai",
+    name: "Cancer Copilot",
+    description:
+      "Cancer Copilot is an AI-powered platform that leverages advanced machine learning models to help users understand their cancer lab reports, providing intelligent medicine suggestions and comprehensive cancer metadata. The platform uses OpenAI's GPT models for natural language processing and custom-trained AI models for medical report analysis, making cancer information more accessible and understandable.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cancer_copilot,
+    repo: "",
+    demo: "https://cancer-copilot.ai/",
+  },
   {
     id: "lookseas",
     name: "Lookseas",

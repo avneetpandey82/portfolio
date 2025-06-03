@@ -45,6 +45,7 @@ import lookseas from "./projects/lookseas.png";
 import walledgarden from "./projects/walledgarden.png";
 import patient_copilot from "./projects/patient-copilot.png";
 import inspection_center from "./projects/inspection-center.png";
+import cancer_copilot from "./projects/cancer-copilot.png";
 
 import loyalistCollege from "./education/loyalist_college.jpeg";
 import dce from "./education/dce.jpeg";
@@ -93,5 +94,6 @@ export {
   patient_copilot,
   inspection_center,
   loyalistCollege,
+  cancer_copilot,
   dce,
 };
