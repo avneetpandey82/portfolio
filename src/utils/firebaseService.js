@@ -34,12 +34,10 @@ export const addEntry = async (entryData) => {
       return null;
     }
 
-    console.log(import.meta.env.VITE_API_KEY, "apikey", entryData);
     const docRef = await addDoc(collection(db, "website-visitors"), {
       ...entryData,
       timestamp: serverTimestamp(),
     });
-    console.log(docRef, "docRef");
     return { id: docRef.id, ...entryData };
   } catch (error) {
     console.error("Error adding entry: ", error);
