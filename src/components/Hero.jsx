@@ -87,7 +87,7 @@ const Hero = () => {
 
   const handleHire = () => {
     // TODO: Implement hire me functionality
-    console.log('Hire me clicked');
+    console.log('Hire me clicked.');
   };
 
   useEffect(() => {
