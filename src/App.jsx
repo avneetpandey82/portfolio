@@ -10,9 +10,13 @@ import {
 } from './components';
 import Education from './components/Education';
 
+import { ToastContainer } from 'react-toastify';
 const App = () => {
   return (
     <BrowserRouter>
+    <ToastContainer
+      position="bottom-right"
+      />
       <div className="relative z-0">
         <div>
           <Navbar />

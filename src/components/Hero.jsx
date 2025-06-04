@@ -16,7 +16,7 @@ const Hero = () => {
   const [showDescription, setShowDescription] = useState(false);
   
   const texts = ["Avneet", "Techie Avneet, lets build future"];
-  const description = "A skilled full-stack developer with strong expertise in React, Next.js, cloud technologies, and AI-powered web applications.";
+  const description = "A skilled full-stack developer with strong expertise in React, Next.js, cloud technologies, and AI-powered web applications. Feel free to reach out using the contact form below.";
   const [textIndex, setTextIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
 
@@ -80,16 +80,6 @@ const Hero = () => {
     }));
   };
 
-  const handleEnquiry = () => {
-    // TODO: Implement enquiry functionality
-    console.log('Enquiry submitted:', formData);
-  };
-
-  const handleHire = () => {
-    // TODO: Implement hire me functionality
-    console.log('Hire me clicked.');
-  };
-
   useEffect(() => {
     const logVisit = async () => {
       try {
@@ -126,7 +116,7 @@ const Hero = () => {
         className="relative flex sm:flex-row flex-col w-full h-screen mx-auto 
         sm:bg-hero bg-hero-mobile bg-top bg-cover bg-no-repeat overflow-hidden">
         <div
-          className={`absolute inset-0 sm:top-[200px] top-[150px]  
+          className={`absolute inset-0 sm:top-[230px] top-[200px]  
           ${styles.paddingX} max-w-7xl mx-auto flex flex-row items-start
           justify-start gap-3`}>
           <div>
