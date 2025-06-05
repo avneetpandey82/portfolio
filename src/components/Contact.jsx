@@ -8,7 +8,7 @@ import { send, sendHover } from '../assets';
 import { toast } from 'react-toastify';
 
 // Initialize EmailJS with public key
-emailjs.init( window.env?.VITE_EMAILJS_PUBLIC_KEY ?? import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
+emailjs.init(window.env?.VITE_EMAILJS_PUBLIC_KEY ?? import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
 
 const Contact = () => {
   const formRef = useRef();
