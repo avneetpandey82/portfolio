@@ -146,8 +146,8 @@ const Hero = () => {
                     duration: 1,
                     ease: "easeOut"
                   }}
-                  className="mt-15 text-lg sm:text-xl md:text-2xl text-eerieBlack/90 max-w-xl leading-relaxed
-                    font-light tracking-wide backdrop-blur-sm bg-black/5 p-5 rounded-lg
+                  className="mt-15 text-lg sm:text-xl md:text-2xl text-white/90 max-w-xl leading-relaxed
+                    font-light tracking-wide backdrop-blur-sm bg-black/40 p-5 rounded-lg
                     border border-[#915EFF]/10 shadow-lg"
                 >
                   <span className="bg-gradient-to-r from-[#915EFF] to-[#7c4dff] bg-clip-text text-transparent font-medium">

@@ -12,6 +12,7 @@ echo "  VITE_MEASUREMENT_ID: '$VITE_MEASUREMENT_ID'," >> /usr/share/nginx/html/e
 echo "  VITE_EMAILJS_SERVICE_ID: '$VITE_EMAILJS_SERVICE_ID'," >> /usr/share/nginx/html/env-config.js
 echo "  VITE_EMAILJS_TEMPLATE_ID: '$VITE_EMAILJS_TEMPLATE_ID'," >> /usr/share/nginx/html/env-config.js
 echo "  VITE_EMAILJS_PUBLIC_KEY: '$VITE_EMAILJS_PUBLIC_KEY'," >> /usr/share/nginx/html/env-config.js
+echo "  VITE_AZURE_COMMUNICATION_KEY: '$VITE_AZURE_COMMUNICATION_KEY'," >> /usr/share/nginx/html/env-config.js
 echo "};" >> /usr/share/nginx/html/env-config.js
 
 # Start nginx
