@@ -296,7 +296,7 @@ const education = [
     company_name: "Dronacharya College of Engineering",
     icon: dce,
     iconBg: "#333333",
-    date: "May 2024 - Present",
+    date: "June 2017 - Aug 2021",
   },
 ];
 
