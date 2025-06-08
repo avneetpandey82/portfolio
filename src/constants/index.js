@@ -178,7 +178,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "three.js",
         color: "pink-text-gradient",
       },
     ],
@@ -235,29 +235,6 @@ const projects = [
     image: walledgarden,
     repo: "",
     demo: "https://walledgardens.ai/",
-  },
-  {
-    id: "patient_copilot",
-    name: "Patient Copilot",
-    description:
-      "This is my current project where we are focusing on the users medical needs by using Augmented and trained models of AI. Helping them understand their cancer lab reports, corresponding medicine suggestion and meta data about cancers to spread awareness about it",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "openai",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: patient_copilot,
-    repo: "",
-    demo: "https://www.patient-copilot.ai/",
   },
   {
     id: "my_inspection_center",
